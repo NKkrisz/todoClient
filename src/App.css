@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  background: linear-gradient(45deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  background-color: wheat;
+}
+
+#leftTodos{
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
