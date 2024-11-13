@@ -11,7 +11,7 @@ const queryClient = new QueryClient()
 
 function App() {
   //Set to true when developing to avoid login requirement
-  const [isLoggedIn, setIsLoggedIn] = useState(true)
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   return (
   <QueryClientProvider client={queryClient}>
