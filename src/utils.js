@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const URL = "http://localhost:3000"
+//const URL = "http://localhost:3000"
+const URL = "https://todoserver-6y0o.onrender.com"
 
 export const getTodos = async () => {
     const response = await axios.get(URL+"/todos")
